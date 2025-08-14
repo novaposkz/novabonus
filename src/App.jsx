@@ -12,17 +12,69 @@ function App() {
     window.open('https://admin.novabonus.kz/', '_blank')
   }
 
+  const handleDemoClick = () => {
+    handleWhatsAppClick()
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Header with Login Button */}
       <div className="absolute top-4 right-4 z-10">
         <button 
           onClick={handleLoginClick}
-          className="bg-white text-blue-600 px-4 py-2 rounded-lg font-medium hover:bg-gray-100 transition-colors shadow-md"
+          className="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors shadow-md"
         >
           Войти в кабинет
         </button>
       </div>
+
+      {/* Hero Section */}
+      <section className="pt-20 pb-16">
+        <div className="container mx-auto px-4 lg:px-8 xl:px-16">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Side - Text Content */}
+            <div className="text-center lg:text-left">
+              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
+                Создайте программу лояльности, которая увеличивает доход и возвращает клиентов
+              </h1>
+              
+              <div className="space-y-6 mb-8">
+                <div className="flex flex-col lg:flex-row lg:items-center gap-4 items-center lg:items-start">
+                  <span className="text-4xl lg:text-5xl font-bold text-blue-600">До</span>
+                  <div className="flex flex-col lg:flex-row lg:items-center gap-4 items-center lg:items-start">
+                    <span className="text-7xl lg:text-8xl font-bold text-blue-600">3x</span>
+                    <p className="text-2xl lg:text-3xl text-gray-600">Удержание клиентов</p>
+                  </div>
+                </div>
+                
+                <div className="flex flex-col lg:flex-row lg:items-center gap-4 items-center lg:items-start">
+                  <span className="text-4xl lg:text-5xl font-bold text-blue-600">До</span>
+                  <div className="flex flex-col lg:flex-row lg:items-center gap-4 items-center lg:items-start">
+                    <span className="text-7xl lg:text-8xl font-bold text-blue-600">70%</span>
+                    <p className="text-2xl lg:text-3xl text-gray-600">Дополнительного дохода</p>
+                  </div>
+                </div>
+              </div>
+              
+              <button 
+                onClick={handleDemoClick}
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-colors shadow-lg"
+              >
+                Получить демо
+              </button>
+            </div>
+            
+            {/* Right Side - Image */}
+            <div className="text-center">
+              <img 
+                src="/images/partners/hero.webp" 
+                alt="NovaBonus Hero" 
+                className="rounded-lg shadow-2xl mx-auto max-w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div className="px-4 py-16">
         <div className="text-center">
@@ -103,9 +155,9 @@ function App() {
               </p>
               <button 
                 onClick={handleWhatsAppClick}
-                className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center gap-2 mx-auto"
+                className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center gap-2 mx-auto border-2 border-white"
               >
-                <i className="fa-brands fa-whatsapp text-green-500 text-xl"></i>
+                <i className="fa-brands fa-whatsapp text-white text-xl"></i>
                 Связаться с нами
               </button>
             </div>
