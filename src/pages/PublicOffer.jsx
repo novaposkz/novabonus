@@ -77,7 +77,7 @@ function PublicOffer() {
                         В целях однозначной трактовки настоящего Договора нижеприведенные термины используются в следующем значении:
                       </p>
                       
-                      <div className="space-y-4">
+                      <div className="space-y-3 ml-6">
                         <div>
                           <h4 className="text-lg font-semibold text-gray-900 mb-2">1.1.1.</h4>
                           <p className="text-gray-700 leading-relaxed">
@@ -252,23 +252,23 @@ function PublicOffer() {
                         <p className="text-gray-700 leading-relaxed mb-4">Пользователь имеет право:</p>
                         <div className="space-y-3 ml-6">
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.1.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.1.1.</h4>
                             <p className="text-gray-700 leading-relaxed">На генерацию и получения лицензии</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.2.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.1.2.</h4>
                             <p className="text-gray-700 leading-relaxed">Использовать Программу в соответствии с ее функциональным назначением, условиями настоящего Договора;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.3.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.1.3.</h4>
                             <p className="text-gray-700 leading-relaxed">Получать круглосуточный и ежедневный доступ к Серверу за исключением случаев, указанных в настоящем Договоре;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.4.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.1.4.</h4>
                             <p className="text-gray-700 leading-relaxed">Отправить запрос Правообладателю на удаление своего Аккаунта и всех введенных Пользователем в Программу данных.</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.5.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.1.5.</h4>
                             <p className="text-gray-700 leading-relaxed">Согласовывать вопросы, связанные с исполнением настоящего Договора, обращаясь к Правообладателю посредством электронной почты, адрес которого указан в п.11 Договора.</p>
                           </div>
                         </div>
@@ -279,35 +279,35 @@ function PublicOffer() {
                         <p className="text-gray-700 leading-relaxed mb-4">Пользователь обязан:</p>
                         <div className="space-y-3 ml-6">
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.1.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.2.1.</h4>
                             <p className="text-gray-700 leading-relaxed">Соблюдать авторские права Правообладателя.</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.2.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.2.2.</h4>
                             <p className="text-gray-700 leading-relaxed">Использовать Программу в пределах, установленных настоящим договором;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.3.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.2.3.</h4>
                             <p className="text-gray-700 leading-relaxed">Производить оплату Правообладателю за оказанные Услуги в соответствии с условиями настоящего Договора;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.4.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.2.4.</h4>
                             <p className="text-gray-700 leading-relaxed">В случае сбора и обработки персональных данных с помощью Программы, строго соблюдать законодательство о защите персональных данных;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.5.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.2.5.</h4>
                             <p className="text-gray-700 leading-relaxed">Обеспечить сохранность своего Логина и Пароля (Логинов и Паролей представителей Пользователя). Пользователь обязуется не передавать свой Логин и Пароль (Логины и Пароли представителей Пользователя) третьим лицам;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.6.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.2.6.</h4>
                             <p className="text-gray-700 leading-relaxed">Сообщать незамедлительно Правообладателю обо всех случаях несанкционированного использования своего Логина и Пароля (Логинов и Паролей представителей Пользователя).</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.7.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.2.7.</h4>
                             <p className="text-gray-700 leading-relaxed">Пользователь при регистрации предоставляет полную и достоверную информацию индивидуального предпринимателя (если Пользователь является индивидуальным предпринимателем) либо данные юридического лица (если Пользователь является юридическим лицом) и обязуется поддерживать ее в актуальном состоянии.</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.8.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.2.8.</h4>
                             <p className="text-gray-700 leading-relaxed">В период действия договора письменно извещать Правообладателя о смене реквизитов, изменении данных о юридическом лице или ИП, юридическом и фактическом адресе.</p>
                           </div>
                         </div>
@@ -323,39 +323,39 @@ function PublicOffer() {
                         <p className="text-gray-700 leading-relaxed mb-4">Пользователь не имеет права:</p>
                         <div className="space-y-3 ml-6">
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.1.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.3.1.</h4>
                             <p className="text-gray-700 leading-relaxed">Использовать Программу для нарушения действующего законодательства Республики Казахстан и норм международного права;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.2.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.3.2.</h4>
                             <p className="text-gray-700 leading-relaxed">Использовать Программу для нарушения или препятствия работе сторонних сервисов, систем, сайтов;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.3.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.3.3.</h4>
                             <p className="text-gray-700 leading-relaxed">Использовать Программу для нарушения работы самой Программы или ее отдельных модулей;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.4.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.3.4.</h4>
                             <p className="text-gray-700 leading-relaxed">Копировать, воспроизводить, записывать в память ЭВМ или изменять Программу. Публиковать Программу, в том числе с целью ее копирования третьими лицами;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.5.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.3.5.</h4>
                             <p className="text-gray-700 leading-relaxed">Создавать программы производные от Программы, проникать в Программу с целью извлечения кода. Вскрывать технологию Программы;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.6.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.3.6.</h4>
                             <p className="text-gray-700 leading-relaxed">Использовать компоненты Программы для запуска сторонних приложений и приложений, не работающих на Программе;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.7.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.3.7.</h4>
                             <p className="text-gray-700 leading-relaxed">Осуществлять продажу, сдачу в аренду, во временное пользование, передачу третьим лицам Программы или каких-либо прав на Программу или на ее части;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.8.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.3.8.</h4>
                             <p className="text-gray-700 leading-relaxed">Использовать Программу для предоставления сетевых услуг на коммерческой основе.</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.9.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.3.9.</h4>
                             <p className="text-gray-700 leading-relaxed">Требовать от Правообладателя возврата уплаченной за программу суммы.</p>
                           </div>
                         </div>
@@ -366,15 +366,15 @@ function PublicOffer() {
                         <p className="text-gray-700 leading-relaxed mb-4">Правообладатель имеет право:</p>
                         <div className="space-y-3 ml-6">
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.1.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.4.1.</h4>
                             <p className="text-gray-700 leading-relaxed">В случае нарушения Пользователем условий, оговоренных в п. 3.3., приостановить доступ к использованию Программы.</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.2.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.4.2.</h4>
                             <p className="text-gray-700 leading-relaxed">Если Пользователь предоставляет неверную информацию или у Правообладателя есть основания так полагать, Правообладатель имеет право приостановить или расторгнуть настоящий Договор. Правообладатель не проверяет предоставляемую Пользователем в целях исполнения настоящего Договора информацию и не несет ответственности перед любыми третьими лицами за точность и достоверность предоставленных данных.</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.3.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.4.3.</h4>
                             <p className="text-gray-700 leading-relaxed">Изменять условия настоящей оферты в одностороннем порядке без предварительного уведомления Пользователей.</p>
                           </div>
                         </div>
@@ -385,19 +385,19 @@ function PublicOffer() {
                         <p className="text-gray-700 leading-relaxed mb-4">Обязанности Правообладателя:</p>
                         <div className="space-y-3 ml-6">
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.1.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.5.1.</h4>
                             <p className="text-gray-700 leading-relaxed">Правообладатель обязан осуществить генерацию и передачу Пользователю лицензии для использования Программы не позднее 14 (трех) дней с момента оплаты Пользователем Услуги.</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.2.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.5.2.</h4>
                             <p className="text-gray-700 leading-relaxed">Консультировать Пользователя по вопросам, связанным с расчетом стоимости прав на использование Программы, его функциональностью, особенностями установки и эксплуатации на стандартных конфигурациях, поддерживаемых (популярных) операционных, почтовых и иных систем.</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.3.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.5.3.</h4>
                             <p className="text-gray-700 leading-relaxed">Немедленно информировать Пользователя о возникновении претензий третьих лиц, которые могут быть обращены на Пользователя или (в случае удовлетворения) могут привести к недействительности любого из условий настоящего Договора.</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.7.4.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">3.5.4.</h4>
                             <p className="text-gray-700 leading-relaxed">Уведомлять Пользователя о всех изменениях в установленные настоящим Договором сроки.</p>
                           </div>
                         </div>
@@ -415,27 +415,27 @@ function PublicOffer() {
                         <p className="text-gray-700 leading-relaxed mb-4">Личный кабинет предоставляет Пользователю следующие функциональные возможности:</p>
                         <div className="space-y-3 ml-6">
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">4.7.1.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">4.1.1.</h4>
                             <p className="text-gray-700 leading-relaxed">Изменение Пароля от Личного кабинета;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">4.7.2.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">4.1.2.</h4>
                             <p className="text-gray-700 leading-relaxed">Изменение Логина (номера телефона) от Личного кабинета;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">4.7.3.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">4.1.3.</h4>
                             <p className="text-gray-700 leading-relaxed">Подача заявки на изменение данных индивидуального предпринимателя (если Пользователь является индивидуальным предпринимателем) либо данных юридического лица (если Пользователь является юридическим лицом) на электронный адрес <a href="mailto:novabonus@mail.ru" className="text-blue-600 hover:text-blue-800 underline">novabonus@mail.ru</a>;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">4.7.4.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">4.1.4.</h4>
                             <p className="text-gray-700 leading-relaxed">Приобретение дополнительных услуг и торговых точек;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">4.7.5.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">4.1.5.</h4>
                             <p className="text-gray-700 leading-relaxed">Получение информации о статусе подключенных Продуктов;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">4.7.6.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">4.1.6.</h4>
                             <p className="text-gray-700 leading-relaxed">Получение информации относительно использования дополнительных Продуктов и торговых точек;</p>
                           </div>
                         </div>
@@ -667,19 +667,19 @@ function PublicOffer() {
                         <p className="text-gray-700 leading-relaxed mb-4">Правообладатель не несет ответственности за:</p>
                         <div className="space-y-3 ml-6">
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">8.7.1.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">8.3.1.</h4>
                             <p className="text-gray-700 leading-relaxed">точность и верность введенных Пользователя, данных индивидуального предпринимателя (если регистрация осуществляется/осуществлялась от имени индивидуального предпринимателя) либо данных юридического лица (если регистрация осуществляется/осуществлялась от имени юридического лица);</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">8.7.2.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">8.3.2.</h4>
                             <p className="text-gray-700 leading-relaxed">точность и верность указанных Пользователем и отраженных в Личном кабинете банковских реквизитов Пользователя;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">8.7.3.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">8.3.3.</h4>
                             <p className="text-gray-700 leading-relaxed">корректность и работоспособность платежных систем, банков, терминалов оплаты;</p>
                           </div>
                           <div>
-                            <h4 className="text-lg font-semibold text-gray-900 mb-2">8.7.4.</h4>
+                            <h4 className="text-lg font-semibold text-gray-900 mb-2">8.3.4.</h4>
                             <p className="text-gray-700 leading-relaxed">Программное обеспечение третьих лиц, интегрированное с Программой Правообладателя, а также за последствие и результатом работы такой интеграции, независимо от того, кем была выполнена такая интеграция.</p>
                           </div>
                         </div>
@@ -896,8 +896,7 @@ function PublicOffer() {
                               <span className="font-semibold">Компания:</span> ИП АНИКИН
                             </p>
                             <p className="text-gray-700">
-                              <span className="font-semibold">Адрес:</span> Казахстан, город Уральск Шолохова
-                            </p>
+                              <span className="font-semibold">Адрес:</span> Казахстан, город Уральск, ул. Шолохова, 11/5                        </p>
                             <p className="text-gray-700">
                               <span className="font-semibold">БИН (ИИН):</span> 511210302176
                             </p>
@@ -952,7 +951,7 @@ function PublicOffer() {
                         <ul className="text-sm text-gray-600 space-y-1">
                           <li>• Сайт: <a href="http://NovaBonus.kz" className="text-blue-600 hover:text-blue-800 underline">http://NovaBonus.kz</a></li>
                           <li>• Email: <a href="mailto:novabonus@mail.ru" className="text-blue-600 hover:text-blue-800 underline">novabonus@mail.ru</a></li>
-                          <li>• Адрес: Казахстан, город Уральск Шолохова</li>
+                          <li>• Адрес: Казахстан, город Уральск, ул. Шолохова, 11/5</li>
                           <li>• Дата обновления: {new Date().toLocaleDateString('ru-RU')}</li>
                         </ul>
                       </div>
