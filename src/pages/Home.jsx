@@ -19,21 +19,27 @@ function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      {/* Header with Navigation */}
-      <div className="absolute top-4 right-4 z-10 flex items-center space-x-4">
-        <Link 
-          to="/public-offer"
-          className="text-gray-600 hover:text-blue-600 transition-colors font-medium"
-        >
-          Публичная оферта
-        </Link>
-        <button 
-          onClick={handleLoginClick}
-          className="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors shadow-md"
-        >
-          Войти в кабинет
-        </button>
-      </div>
+      {/* Header */}
+      <header className="bg-white shadow-sm">
+        <div className="container mx-auto px-4 lg:px-8 xl:px-16">
+          <div className="flex justify-between items-center py-4">
+            {/* Logo/Home Link */}
+            <Link to="/" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
+              NovaBonus
+            </Link>
+            
+            {/* Navigation */}
+            <nav className="flex items-center space-x-6">
+              <button 
+                onClick={handleLoginClick}
+                className="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors shadow-md"
+              >
+                Войти в кабинет
+              </button>
+            </nav>
+          </div>
+        </div>
+      </header>
 
       {/* Hero Section */}
       <section className="pt-20 pb-16">
@@ -240,6 +246,103 @@ function Home() {
           </div>
         </div>
       </section>
+
+      {/* Business Page Section */}
+      <section className="py-20 bg-gray-100">
+        <div className="container mx-auto px-4 lg:px-8 xl:px-16">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+              Страница заведения в системе лояльности NovaBonus
+            </h2>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Side - Text Content */}
+            <div>
+              <p className="text-xl text-gray-600 mb-8">
+                Удобный доступ для клиента ко всей важной информации о вашем бизнесе в одном месте.
+              </p>
+              
+              <div className="space-y-6 mb-8">
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i className="fas fa-map-marker-alt text-sm"></i>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Адрес и контактные данные</h3>
+                    <p className="text-gray-600">Клиенты легко найдут вас и свяжутся с вами</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i className="fas fa-clock text-sm"></i>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Актуальное расписание</h3>
+                    <p className="text-gray-600">Точные часы работы вашего бизнеса</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i className="fas fa-images text-sm"></i>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Фотогалерея</h3>
+                    <p className="text-gray-600">Создайте привлекательный визуальный образ вашего заведения</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i className="fas fa-utensils text-sm"></i>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Меню в удобном формате</h3>
+                    <p className="text-gray-600">Клиенты смогут заранее ознакомиться с вашим меню и ценами прямо на странице заведения</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i className="fas fa-share-alt text-sm"></i>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Быстрые ссылки</h3>
+                    <p className="text-gray-600">На социальные сети, сайт, мессенджеры для удобной коммуникации</p>
+                  </div>
+                </div>
+              </div>
+              
+              <p className="text-xl font-semibold text-blue-600">
+                Дайте клиентам максимум информации и удобства
+              </p>
+            </div>
+            
+            {/* Right Side - Image */}
+            <div className="text-center">
+              <img 
+                src="/images/partners/cards_locations.webp" 
+                alt="Business Page in NovaBonus" 
+                className="rounded-lg shadow-2xl mx-auto max-w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer with Public Offer Link */}
+      <footer className="py-8 bg-gray-900 text-white">
+        <div className="container mx-auto px-4 lg:px-8 xl:px-16 text-center">
+          <Link 
+            to="/public-offer"
+            className="text-gray-400 hover:text-white transition-colors underline"
+          >
+            Публичная оферта
+          </Link>
+        </div>
+      </footer>
     </div>
   )
 }
