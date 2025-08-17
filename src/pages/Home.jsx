@@ -83,6 +83,102 @@ function Home() {
         </div>
       </section>
 
+      {/* Advantages Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4 lg:px-8 xl:px-16">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+              Какие преимущества и возможности вас ждут?
+            </h2>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Left Block - Loyalty Programs */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                Различные программы лояльности
+              </h3>
+              <p className="text-gray-600 mb-8">
+                Предложите своим клиентам эффективные программы, стимулирующие повторные покупки.
+              </p>
+              
+              <div className="space-y-4 mb-8">
+                <div className="flex items-center gap-3">
+                  <span className="text-green-500 text-xl">✅</span>
+                  <span className="text-gray-700">Бонусы и скидки</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-xl">🎟️</span>
+                  <span className="text-gray-700">Купоны и сертификаты</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-xl">🔄</span>
+                  <span className="text-gray-700">Накопительные акции</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-xl">🎂</span>
+                  <span className="text-gray-700">Бонусы на день рождения</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-xl">🏆</span>
+                  <span className="text-gray-700">Клиентские уровни: Gold, Platinum, Premium и т.д.</span>
+                </div>
+              </div>
+              
+              <p className="text-gray-600 font-medium">
+                Механики лояльности помогают увеличить средний чек и удержание клиентов.
+              </p>
+            </div>
+            
+            {/* Right Block - Push Notifications */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                Push-уведомления – персонализированный контакт для повышения лояльности клиентов
+              </h3>
+              <p className="text-gray-600 mb-8">
+                Автоматически напоминайте клиентам о выгодных предложениях и вовлекайте их в повторные покупки!
+              </p>
+              
+              <div className="space-y-6 mb-8">
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i className="fas fa-bell text-sm"></i>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-2">Оповещайте о новостях и акциях</h4>
+                    <p className="text-gray-600">Мгновенно информируйте клиентов о скидках и акциях</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i className="fas fa-users text-sm"></i>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-2">Настраивайте персонализированные рассылки</h4>
+                    <p className="text-gray-600">Сегментируйте аудиторию и отправляйте уведомления выбранным клиентам</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i className="fas fa-map-marker-alt text-sm"></i>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-gray-900 mb-2">Гео-уведомления в реальном времени</h4>
+                    <p className="text-gray-600">Отправляйте push-уведомления, когда клиент находится рядом с вашим заведением</p>
+                  </div>
+                </div>
+              </div>
+              
+              <p className="text-gray-600 font-medium">
+                Push-уведомления помогают увеличить продажи без лишних затрат на рекламу!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Digital Cards Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 lg:px-8 xl:px-16">
