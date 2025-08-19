@@ -332,6 +332,78 @@ function Home() {
         </div>
       </section>
 
+      {/* Automation Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4 lg:px-8 xl:px-16">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Side - Text Content */}
+            <div>
+              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+                Автоматизация взаимодействий с клиентами и программы лояльности
+              </h2>
+              <p className="text-xl text-gray-600 mb-8">
+                Настройте персонализированную коммуникацию с клиентами, которая работает без вашего участия!
+              </p>
+              
+              <div className="space-y-6 mb-8">
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i className="fas fa-birthday-cake text-sm"></i>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Поздравления с Днём Рождения</h3>
+                    <p className="text-gray-600">Автоматически начисляйте бонусы и делайте клиенту приятные сюрпризы.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i className="fas fa-undo text-sm"></i>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Возвращайте ушедших клиентов</h3>
+                    <p className="text-gray-600">Отправляйте персональные предложения тем, кто давно не совершал покупок.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i className="fas fa-star text-sm"></i>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Собирайте отзывы на автопилоте</h3>
+                    <p className="text-gray-600">Отправляйте запрос на отзыв после покупки и повышайте рейтинг компании.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <i className="fas fa-clock text-sm"></i>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Контролируйте срок действия бонусов</h3>
+                    <p className="text-gray-600">Создавайте акционные предложения с ограниченным сроком, чтобы стимулировать спрос.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <p className="text-xl font-semibold text-blue-600">
+                NovaBonus автоматизирует заботу о ваших клиентах – а вы сосредотачиваетесь на развитии бизнеса!
+              </p>
+            </div>
+            
+            {/* Right Side - Image */}
+            <div className="text-center">
+              <img 
+                src="/images/partners/automation.webp" 
+                alt="Customer Interaction Automation" 
+                className="rounded-lg shadow-2xl mx-auto max-w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer with Public Offer Link */}
       <footer className="py-8 bg-gray-900 text-white">
         <div className="container mx-auto px-4 lg:px-8 xl:px-16 text-center">
