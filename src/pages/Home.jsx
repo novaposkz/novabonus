@@ -51,21 +51,27 @@ function Home() {
                 Создайте программу лояльности, которая увеличивает доход и возвращает клиентов
               </h1>
               
-              <div className="space-y-6 mb-8">
-                <div className="flex flex-col lg:flex-row lg:items-center gap-4 items-center lg:items-start">
-                  <span className="text-4xl lg:text-5xl font-bold text-blue-600">До</span>
-                  <div className="flex flex-col lg:flex-row lg:items-center gap-4 items-center lg:items-start">
-                    <span className="text-7xl lg:text-8xl font-bold text-blue-600">3x</span>
-                    <p className="text-2xl lg:text-3xl text-gray-600">Удержание клиентов</p>
+              <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 mb-8">
+                {/* Left Block - Customer Retention */}
+                <div className="text-center lg:text-left">
+                  <div className="mb-2">
+                    <span className="text-4xl lg:text-5xl font-bold text-blue-600">До</span>
                   </div>
+                  <div className="mb-2">
+                    <span className="text-7xl lg:text-8xl font-bold text-blue-600">3x</span>
+                  </div>
+                  <p className="text-2xl lg:text-3xl text-gray-600">Удержание клиентов</p>
                 </div>
                 
-                <div className="flex flex-col lg:flex-row lg:items-center gap-4 items-center lg:items-start">
-                  <span className="text-4xl lg:text-5xl font-bold text-blue-600">До</span>
-                  <div className="flex flex-col lg:flex-row lg:items-center gap-4 items-center lg:items-start">
-                    <span className="text-7xl lg:text-8xl font-bold text-blue-600">70%</span>
-                    <p className="text-2xl lg:text-3xl text-gray-600">Дополнительного дохода</p>
+                {/* Right Block - Additional Income */}
+                <div className="text-center lg:text-left">
+                  <div className="mb-2">
+                    <span className="text-4xl lg:text-5xl font-bold text-blue-600">До</span>
                   </div>
+                  <div className="mb-2">
+                    <span className="text-7xl lg:text-8xl font-bold text-blue-600">70%</span>
+                  </div>
+                  <p className="text-2xl lg:text-3xl text-gray-600">Дополнительного дохода</p>
                 </div>
               </div>
               
