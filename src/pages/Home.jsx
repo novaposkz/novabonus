@@ -410,6 +410,61 @@ function Home() {
         </div>
       </section>
 
+      {/* Analytics Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4 lg:px-8 xl:px-16">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Side - Text Content */}
+            <div>
+              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+                Просто и удобно, ваши возможности безграничны!
+              </h2>
+              <h3 className="text-2xl lg:text-3xl font-bold text-blue-600 mb-6">
+                Аналитика эффективности программы лояльности
+              </h3>
+              <p className="text-xl text-gray-600 mb-8">
+                Здесь вы сможете увидеть полную статистику о ваших клиентах:
+              </p>
+              
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0 mt-3"></div>
+                  <p className="text-lg text-gray-600">Когда они последний раз посещали вас</p>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0 mt-3"></div>
+                  <p className="text-lg text-gray-600">Как часто они совершают покупки</p>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0 mt-3"></div>
+                  <p className="text-lg text-gray-600">Сколько они потратили</p>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0 mt-3"></div>
+                  <p className="text-lg text-gray-600">И многое другое</p>
+                </div>
+              </div>
+              
+              <p className="text-xl font-semibold text-blue-600">
+                Полный контроль над эффективностью вашей программы лояльности!
+              </p>
+            </div>
+            
+            {/* Right Side - Image */}
+            <div className="text-center">
+              <img 
+                src="/images/partners/analytics_widgets.webp" 
+                alt="Analytics Dashboard" 
+                className="rounded-lg shadow-2xl mx-auto max-w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer with Public Offer Link */}
       <footer className="py-8 bg-gray-900 text-white">
         <div className="container mx-auto px-4 lg:px-8 xl:px-16 text-center">
